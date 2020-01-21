@@ -2,71 +2,53 @@
 // Initializing map
 function initMap() {
 
-    // Location of places in Paris
+    // Location of places in Agra
+    const agra= [
+        {name: 'agra', lat: 27.1766701, lng:78.0080745 },
+        {name: 'Fathehabad', lat: 27.160002, lng:78.053331 },
+        {name: 'Gattiman Train Tour', lat: 27.160102, lng:78.052593 }
+    ];
+    // Location of places in Goa
+    const goa = [
+        {name: 'Goa', lat: 15.2993265, lng:74.12399600000003 },
+        {name: 'Goa Beatch Hotel', lat: 15.559112, lng:73.756646 },
+        {name: 'Rumbrem', lat: 15.299327, lng: 74.123996}
+    ];
+    // Location of places in Manali
+    const manali = [
+        {name: 'Manali', lat: 32.2396325, lng:77.18871450000006 },
+        {name: 'India post manali', lat: 32.24382, lng: 77.188316},
+        {name: 'Manali post market', lat: 32.243306, lng:77.189335 }
+    ];
+    // Location of places in Hyderabad
     const hyderabad = [
-        {name: 'Lumbini Park', lat: 17.387140, lng:78.491684 },
-        {name: 'Hyderabad Zoo', lat: 48.850865, lng: 2.339383},
-        {name: 'Ocean Park Hyderabad', lat: 48.849493, lng: 2.338734}
+         {name: 'Hyderabad', lat:17.385044 , lng:78.486671 },
+        {name: 'Charminar', lat:17.354043 , lng:78.477059 },
+        {name: 'Golkonda', lat:17.38 , lng:78.4 }
     ];
-    // Location of places in London
-    const london = [
-        {name: 'Courthouse Hotel', lat: 51.514351, lng: -0.139485},
-        {name: 'Mew of Mayfair Brasserie', lat: 51.512698, lng: -0.145551},
-        {name: 'London Palladium', lat: 51.514600, lng: -0.140465}
+    // Location of places in Mumbai
+    const mumbai = [
+        {name: 'mumbai', lat:19.0759837 , lng: 72.8776559},
+        {name: 'mumbai central', lat: 18.969025, lng:72.820529 },
+        {name: 'Mumbai airport', lat: 19.0901765, lng:72.86873909999997 }
     ];
-    // Location of places in Prague
-    const prague = [
-        {name: 'Hotel Leonardo', lat: 50.083632, lng: 14.414274},
-        {name: 'Restaurant Parnas', lat: 50.081683, lng: 14.413252},
-        {name: 'National Theatre', lat: 50.080980, lng: 14.413598}
+    // Location of places in Newdelhi
+    const newdelhi = [
+        {name: 'Newdelhi', lat:28.6139391 , lng: 77.2090212},
+        {name: 'newdelhi railway station', lat: 28.644512, lng:77.221535 },
+        {name: "red fort", lat: 28.656159, lng:77.24102 }
     ];
-    // Location of places in Vienaa
-    const vienna = [
-        {name: 'Hotel Josefshof am Rathaus', lat: 48.208602, lng: 16.354076},
-        {name: 'Fromme Helene', lat: 48.209242, lng: 16.352121},
-        {name: 'Vienna Operahouse', lat: 48.202961, lng: 16.368914}
-    ];
-    // Location of places in Athens
-    const athens = [
-        {name: 'Fresh Hotel', lat: 37.981244, lng: 23.726716},
-        {name: 'Kuzina', lat: 37.976413, lng: 23.722061},
-        {name: 'National Theatre of Athens', lat: 37.984969, lng: 23.725248}
-    ];
-    // Location of places in Rome
-    const rome = [
-        {name: 'Rome Times Hotel', lat: 41.898567, lng: 12.490433},
-        {name: 'Il Nido dell Pettirosso', lat: 41.899409, lng: 12.493029},
-        {name: "Teatro dell'Opera", lat: 41.900876, lng: 12.495336}
-    ];
-    // Location of places in Stockholm
-    const stockholm = [
-        {name: 'Nobis Hotel', lat: 59.333451, lng: 18.073844},
-        {name: 'Restaurang Prinsen', lat: 59.334417, lng: 18.073255},
-        {name: 'Royal Swedish Opera', lat: 59.329867, lng: 18.070386}
-    ];
-    // Location of places in Dublin
-    const dublin = [
-        {name: 'Brooks Hotel', lat: 53.341536, lng: -6.263617},
-        {name: 'The Oak', lat: 53.344360, lng: -6.267133},
-        {name: 'Olympia Theatre', lat: 53.344304, lng: -6.266082}
-    ];
-    // Location of places in Helsinki
-    const helsinki = [
-        {name: 'Clarion Hotel', lat: 60.159933, lng: 24.922068},
-        {name: 'Restaurant Natura', lat: 60.163663, lng: 24.942200},
-        {name: 'Alexander Theatre', lat: 60.163432, lng: 24.933357}
-    ];
+   
+    
+    
 
     // Map centered on hotels in each city
-    var maphyderabad = new google.maps.Map(document.getElementById('map-hyderabad'), {zoom: 13, center: hyderabad[0]});
-    var mapLondon = new google.maps.Map(document.getElementById('map-london'), {zoom: 13, center: london[0]});
-    var mapPrague = new google.maps.Map(document.getElementById('map-prague'), {zoom: 13, center: prague[0]});
-    var mapVienna = new google.maps.Map(document.getElementById('map-vienna'), {zoom: 13, center: vienna[0]});
-    var mapAthens = new google.maps.Map(document.getElementById('map-athens'), {zoom: 13, center: athens[0]});
-    var mapRome = new google.maps.Map(document.getElementById('map-rome'), {zoom: 13, center: rome[0]});
-    var mapStockholm = new google.maps.Map(document.getElementById('map-stockholm'), {zoom: 13, center: stockholm[0]});
-    var mapDublin = new google.maps.Map(document.getElementById('map-dublin'), {zoom: 13, center: dublin[0]});
-    var mapHelsinki = new google.maps.Map(document.getElementById('map-helsinki'), {zoom: 13, center: helsinki[0]});
+    var mapAgra = new google.maps.Map(document.getElementById('map-agra'), {zoom: 13, center: agra[0]});
+    var mapGoa = new google.maps.Map(document.getElementById('map-goa'), {zoom: 13, center: goa[0]});
+    var mapManali = new google.maps.Map(document.getElementById('map-manali'), {zoom: 13, center: manali[0]});
+    var mapHyderabad = new google.maps.Map(document.getElementById('map-hyderabad'), {zoom: 13, center: hyderabad[0]});
+    var mapMumbai = new google.maps.Map(document.getElementById('map-mumbai'), {zoom: 13, center: mumbai[0]});
+    var mapNewdelhi = new google.maps.Map(document.getElementById('map-newdelhi'), {zoom: 13, center: newdelhi[0]});
 
     function mapMarkers(city, map) {
         for(var i = 0; i < city.length; i++){
@@ -79,15 +61,13 @@ function initMap() {
             });
         }
     }
+    
         
-    mapMarkers(hyderabad, maphyderabad);
-    mapMarkers(london, mapLondon);
-    mapMarkers(prague, mapPrague);
-    mapMarkers(vienna, mapVienna);
-    mapMarkers(athens, mapAthens);
-    mapMarkers(rome, mapRome);
-    mapMarkers(stockholm, mapStockholm);
-    mapMarkers(dublin, mapDublin);
-    mapMarkers(helsinki, mapHelsinki);
+    mapMarkers(agra, mapAgra);
+    mapMarkers(goa, mapGoa);
+    mapMarkers(manali, mapManali);
+    mapMarkers(hyderabad, mapHyderabad);
+    mapMarkers(mumbai, mapMumbai);
+    mapMarkers(newdelhi, mapNewdelhi);
 
 }

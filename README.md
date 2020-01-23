@@ -58,7 +58,31 @@ The contact us page has one main feature, the form you fill in to request furthe
 The main thing on this  page though is to fill in the form and the user will be alert by a
  message of Thankyou for the information when  they click submit.
 
- ###Future Features
+ ### Future Features
+ * The user can see videos of the distination places in the website.
+
+ * The user can search in google map in the modal what places he wants to visit.
+
+ * The user can chat live with customer care of the website so he will get details
+   what he want.
+
+## Technologies Used
+
+* Javascript - This was used to add the google map functionality, the modal section and
+ the contact form functionality.
+* HTML - I used this to build the entire site and each individual page.
+* CSS - This was used to style the html code.
+* [Bootstrap](https://getbootstrap.com/) Bootstrap was used to make the site responsive on all devices and add the youtube videos and 
+   the main structure of the site.
+* [JQuery](https://jquery.com/) This was used with bootstrap to allow you to place certain elements and functionality on your page.
+* [GitHub](https://github.com/) This allowed me to upload my local repository onto a remote server for access for anybody.
+* [VSCode](https://code.visualstudio.com/) I used this as my ide. The local repository along with all my code was stored here.
+
+   
+   
+
+
+
 
 
 

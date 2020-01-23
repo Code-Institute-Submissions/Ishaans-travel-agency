@@ -19,15 +19,20 @@ I want to give the travellers with good experience for the first visit itself.Th
 also included packages for the visiting places with the main places to visit.
 
 ## User Stories
-. as a user of the website, I can easily navigate between the sections of the website.
-. as a first time user of the website, I can easily know what iam looking for in the website.
-. as a first time user of the website, I can quickly get a sense of what the business is about
+* as a user of the website, I can easily navigate between the sections of the website.
+
+*as a first time user of the website, I can easily know what iam looking for in the website.
+
+* as a first time user of the website, I can quickly get a sense of what the business is about
   and what they offer.
-. as a potential customer, I can easily locate the business' social media profiles where I
+
+* as a potential customer, I can easily locate the business' social media profiles where I
  will be able to get more information and read reviews.
-. as a returning customer, I can quickly get in touch with the business to discuss my next vacation
+
+* as a returning customer, I can quickly get in touch with the business to discuss my next vacation
  without necessarily having to go through the other sections.
-. as a potential customer who is trying to pick a destination, I can find information on the
+
+* as a potential customer who is trying to pick a destination, I can find information on the
  individual cities and compare my options.
 
 ## Wireframes
@@ -47,6 +52,13 @@ is history of the visiting place.
 ### packages :
 The website has packages section which shows what are the packages for the destination place
 and whar are the places to visit in the destination place.
+
+### Contact Us:
+The contact us page has one main feature, the form you fill in to request further information. 
+The main thing on this  page though is to fill in the form and the user will be alert by a
+ message of Thankyou for the information when  they click submit.
+
+ ###Future Features
 
 
 

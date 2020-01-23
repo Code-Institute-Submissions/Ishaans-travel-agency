@@ -3,8 +3,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" maximum-scale=1.0, user-scalable=no" /> 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Theatre Travels</title>
     <!-- Favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
@@ -26,12 +28,13 @@
           <li class="nav-item active">
             <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#lp-div">Packages <span class="sr-only">(current)</span></a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="#destinations-div">Destinations</a>
           </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#packages-div">Packages </a>
+          </li>
+          
           <li class="nav-item">
             <a class="nav-link" href="#contact-div">Contact</a>
           </li>
@@ -57,47 +60,49 @@
 
     <div class="container-fluid bg-2 text-center" id="home">
   <h3>About Ishaans Travel Agency</h3><br>
-  <br><br>
-  <p>Ishaan Travel  agency is a confidential seller/ public service that<br> present tourism 
-  related services to the public on behalf of dealers like hotel, package tour,
-   railways, rentals car, airlines, sea ways, and airlines. addition to trading 
-   with regular tourists the majority agencies have a separate department committed 
-   to making travel arrangements for commercial travelers and a number of travel agencies
-    focus in commercial travel only. We also  provide as general
-     sales agents for overseas businesses, allowing them to have branches in regions and
-      nations other than where their head offices are placed.
+  <br>
+  <p>WHAT WE DO<br>
+MOVING YOU FOR GENERATIONS<br><br>
+Ishaans Group is a dynamic, well established enterprise in the fields of travel, logistics
+ and hospitality. An enterprise launched by Late Shri. Kesineni Venkaiah in 1928, 
+ Ishaans Travel was one of the first intercity bus operators in the country, using coal
+  engine buses.<br>
+
+Innovation and benchmarking are the hallmark of our group under the leadership of our
+ mentor Shri. Kesineni Srinivas, who recreated and re-envisioned the brand of Ishaans Travels 
+ in 1992. The new face of leadership for the company, a fourth generation entrepreneur, Ms.
+  Hyma Kesineni has brought the vigour and vision of this generation to lead the sterling 
+  enterprise to keep winning over competition.
   </p>
 </div>
+<!--home-->
+
     <!-- Destinations section with clickable images and modals -->
     <div class="container-fluid cities" id="destinations-div">
       <h2>Destinations</h2>
-      <p>Click on a city to see where you will be sleeping, eating and enjoying a show.</p>
       <p>If you have any preferences, please contact us using the form below and we will be happy to accommodate you!</p>
       <div class="row cities-content">
-        <!-- Paris -->
+        <!-- Agra -->
         <div class="col-md-6 col-lg-4">
-          <div class="city-div" data-modal="modal-paris">
+          <div class="city-div" data-modal="modal-agra">
             <div class="cities-images" id="aagra"></div>
-            <p>AAGRA</p>
+            <p>AGRA</p>
           </div>
-          <!-- Paris modal with map and text -->
-          <div id="modal-paris" class="modal">
+          <!-- Agra modal with map and text -->
+          <div id="modal-agra" class="modal">
             <div class="modal-content">
               <div class="container modal-container">
                 <span class="modal-close"><i class="fas fa-times"></i></span>
-                <h2>Paris</h2>
+                <h2>AGRA</h2>
                 <div class="row modal-row">
-                  <div id="map-paris" class="col-md-6 modal-map"></div>
+                  <div id="map-agra" class="col-md-6 modal-map"></div>
                   <div class="col-md-6 modal-text">
                     <p>
-                      In Paris you will be staying at the 4-star Hotel le Sénat close to the Luxembourg
-                      Gardens.
-                      On the night of the show, you will enjoy a 3-course meal at the intimate restaurant
-                      L’Épidon which serves
-                      outstanding organic food.
-                      The show will be at the grand Odéon Theatre, which is one of France’s national
-                      theatres.<br>
-                      Get in touch with us to find out which shows are available while you’re there!
+                      Agra is a city in the northern state of Uttar Pradesh, India.
+                       The city is famous for being the capital of the Mughal emperors
+                        from 1526 to 1658. It is a major tourist destination for its many
+                         Mughal-era buildings such as Tāj Mahal, Agra Fort and Fatehpūr Sikrī
+                         , all three of which are UNESCO World Heritage Sites.
                     </p>
                     <a href="#contact-div" class="modal-btn">Contact us</a>
                   </div>
@@ -105,32 +110,37 @@
               </div>
             </div>
           </div>
-          <!-- /Paris modal with map and text -->
+          <!-- /Agra modal with map and text -->
         </div>
-        <!-- /Paris -->
-        <!-- London -->
+        <br>
+         <br>
+      <!-- /Agra -->
+
+        <!-- Goa -->
         <div class="col-md-6 col-lg-4">
-          <div class="city-div" data-modal="modal-london">
+          <div class="city-div" data-modal="modal-goa">
             <div class="cities-images" id="goa"></div>
             <p>GOA</p>
           </div>
-          <!-- London modal with map and text -->
-          <div id="modal-london" class="modal">
+          <!-- Goa modal with map and text -->
+          <div id="modal-goa" class="modal">
             <div class="modal-content">
               <div class="container modal-container">
                 <span class="modal-close"><i class="fas fa-times"></i></span>
-                <h2>London</h2>
+                <h2>GOA</h2>
                 <div class="row modal-row">
-                  <div id="map-london" class="col-md-6 modal-map"></div>
+                  <div id="map-goa" class="col-md-6 modal-map"></div>
                   <div class="col-md-6 modal-text">
                     <p>
-                      In London you will be staying at the luxurious 5-star Courthouse hotel which offers
-                      an indoor pool and a spa.
-                      On the night of the show you will enjoy a 3-course meal at the bright and elegant
-                      Mews of Mayfair Brasserie.
-                      The show will be at the famous West End theatre London Palladium where you can pick
-                      between concerts, musicals and plays.<br>
-                      Get in touch with us to find out which shows are available while you’re there!
+                      The state of Goa, in India, is famous for its beaches and places of worship, 
+                      and tourism is its primary industry. Tourism is generally focused on the coastal
+                       areas of Goa, with decreased tourist activity inland. Foreign tourists, mostly 
+                       from Europe, arrive in Goa in winter, whilst the summer and monsoon seasons see
+                        many Indian tourists. Goa handled 2.29% of all foreign tourist arrivals in the 
+                        country in 2011.This relatively small state is situated on the western
+                         coast of India, between the borders of Maharashtra and Karnataka, and is better
+                          known to the world as a former Portuguese enclave on Indian soil. Tourism is said
+                           to be the backbone of Goa's economy.
                     </p>
                     <a href="#contact-div" class="modal-btn">Contact us</a>
                   </div>
@@ -138,33 +148,30 @@
               </div>
             </div>
           </div>
-          <!-- /London modal with map and text -->
+          <!-- /Goa modal with map and text -->
         </div>
-        <!-- /London -->
-        <!-- Prague -->
+        <!-- /Goa -->
+
+        <!-- manali -->
         <div class="col-md-6 col-lg-4">
-          <div class="city-div" data-modal="modal-prague">
+          <div class="city-div" data-modal="modal-manali">
             <div class="cities-images" id="manali"></div>
             <p>MANALI</p>
           </div>
-          <!-- Prague modal with map and text -->
-          <div id="modal-prague" class="modal">
+          <!-- Manali modal with map and text -->
+          <div id="modal-manali" class="modal">
             <div class="modal-content">
               <div class="container modal-container">
                 <span class="modal-close"><i class="fas fa-times"></i></span>
-                <h2>Prague</h2>
+                <h2>MANALI</h2>
                 <div class="row modal-row">
-                  <div id="map-prague" class="col-md-6 modal-map"></div>
+                  <div id="map-manali" class="col-md-6 modal-map"></div>
                   <div class="col-md-6 modal-text">
                     <p>
-                      In Prague you will be staying at the central and quiet 4-star Hotel Leonardo
-                      which is close to the Charles Bridge.
-                      On the night of the show you will enjoy a 3-course meal at the cosy Restaurant
-                      Parnas
-                      where you will be able to look out over the Vitava River while dining.
-                      The show will be at the magnificent National Theatre where you can pick between
-                      ballet, operas and plays.<br>
-                      Get in touch with us to find out which shows are available while you’re there!
+                     Manali is the last town after Kullu (Kullu is the district head quarters of
+                     machal Pradesh). Manali is the gateway to Lahaul Spiti which is famous for 
+                     Himalayan valleys. Manali is blessed with rivers (mainly the giant river, Beas)
+                      almost surrounding from all the places, snow covered peaks everywhere
                     </p>
                     <a href="#contact-div" class="modal-btn">Contact us</a>
                   </div>
@@ -172,32 +179,30 @@
               </div>
             </div>
           </div>
-          <!-- /Prague modal with map and text -->
+          <!-- /Manali modal with map and text -->
         </div>
-        <!-- / Prague -->
-        <!-- Vienna -->
+        <!-- / Manali -->
+
+        <!-- Hyderabad -->
         <div class="col-md-6 col-lg-4">
-          <div class="city-div" data-modal="modal-vienna">
+          <div class="city-div" data-modal="modal-hyderabad">
             <div class="cities-images" id="hyd"></div>
             <p>HYDERABAD</p>
           </div>
-          <!-- Vienna modal with map and text -->
-          <div id="modal-vienna" class="modal">
+          <!-- Hyderabad modal with map and text -->
+          <div id="modal-hyderabad" class="modal">
             <div class="modal-content">
               <div class="container modal-container">
                 <span class="modal-close"><i class="fas fa-times"></i></span>
-                <h2>Vienna</h2>
+                <h2>HYDERABAD</h2>
                 <div class="row modal-row">
-                  <div id="map-vienna" class="col-md-6 modal-map"></div>
+                  <div id="map-hyderabad" class="col-md-6 modal-map"></div>
                   <div class="col-md-6 modal-text">
                     <p>
-                      In Vienna you will be staying at the elegant 4-star Hotel Josefshof am Rathaus
-                      located in the charming Josefstadt district.
-                      On the night of the show, you will enjoy a 3-course meal at Fromme Helene which
-                      is a hidden gem serving authentic Austrian Food.
-                      The show will be at the spectacular Vienna Operahouse where you can pick between
-                      ballets, operas and concerts.<br>
-                      Get in touch with us to find out which shows are available while you’re there!
+                      Hyderabad was found on the banks of Musi river in 1591. Today that area is known as
+                       old city where Mecca Masjid and Hussain Sagar Lake exist. The area has many official 
+                       buildings and that area is very old. From the recent time, Hyderabad has been merged with
+                        Secunderabad.
                     </p>
                     <a href="#contact-div" class="modal-btn">Contact us</a>
                   </div>
@@ -205,65 +210,31 @@
               </div>
             </div>
           </div>
-          <!-- /Vienna modal with map and text -->
+          <!-- /Hyderabad modal with map and text -->
         </div>
-        <!-- /Vienna -->
-        <!-- Athens -->
+        <!-- /Hyderabad -->
+
+        <!-- Mumbai -->
         <div class="col-md-6 col-lg-4">
-          <div class="city-div" data-modal="modal-athens">
+          <div class="city-div" data-modal="modal-mumbai">
             <div class="cities-images" id="mumbai"></div>
             <p>MUMBAI</p>
           </div>
-          <!-- Athens modal with map and text -->
-          <div id="modal-athens" class="modal">
-            <div class="modal-content">
-              <div class="container modal-container">
-                <span class="modal-close"><i class="fas fa-times"></i></span>
-                <h2>Athens</h2>
-                <div class="row modal-row">
-                  <div id="map-athens" class="col-md-6 modal-map"></div>
-                  <div class="col-md-6 modal-text">
-                    <p>
-                      In Athens you will be staying at the modern design hotel Hotel Fresh located in
-                      the city centre.
-                      On the night of the show, you will enjoy a 3-course meal at restaurant Kuzina
-                      which is located on the picturesque Adrianou Street with a view of the
-                      Acropolis.
-                      The show will be at the beautiful National Theatre of Greece.<br>
-                      Get in touch with us to find out which shows are available while you’re there!
-                    </p>
-                    <a href="#contact-div" class="modal-btn">Contact us</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- /Athens modal with map and text -->
-        </div>
-        <!-- /Athens -->
-        <!-- Rome -->
-        <div class="col-md-6 col-lg-4">
-          <div class="city-div" data-modal="modal-rome">
-            <div class="cities-images" id="newdelhi"></div>
-            <p>NEWDELHI</p>
-          </div>
-          <!-- Rome modal with map and text -->
-          <div id="modal-rome" class="modal">
+          <!-- Mumbai modal with map and text -->
+          <div id="modal-mumbai" class="modal">
             <div class="modal-content">
               <div class="container modal-container">
                 <span class="modal-close"><i class="fas fa-times"></i></span>
                 <h2>MUMBAI</h2>
                 <div class="row modal-row">
-                  <div id="map-rome" class="col-md-6 modal-map"></div>
+                  <div id="map-mumbai" class="col-md-6 modal-map"></div>
                   <div class="col-md-6 modal-text">
                     <p>
-                      In Rome you will be staying at the Rome Times Hotel which is a wonderful design
-                      hotel close to many of the city’s famous tourist attractions.
-                      On the night of the show, you will enjoy a 3-course meal at the bright and
-                      comfortable Il Nido dell Pettirosso.
-                      The show will be in the beautiful Teatro Dell’Opera. Pick between concerts,
-                      operas and ballets.<br>
-                      Get in touch with us to find out which shows are available while you’re there!
+                     Mumbai (previously known as Bombay until 1996) is a natural harbor on the
+                      west coast of India, and is the capital city of Maharashtra state. It is
+                       India's largest city, and one of the world's most populous cities. 
+                       It is the financial capital of India. The city is the second most-populous
+                        in the world.
                     </p>
                     <a href="#contact-div" class="modal-btn">Contact us</a>
                   </div>
@@ -271,33 +242,30 @@
               </div>
             </div>
           </div>
-          <!-- /Rome modal with map and text -->
+          <!-- /mumbai modal with map and text -->
         </div>
-        <!-- /Rome -->
-        <!-- Stockholm -->
+        <!-- /Mumbai-->
+
+        <!-- Newdelhi-->
         <div class="col-md-6 col-lg-4">
-          <div class="city-div" data-modal="modal-stockholm">
-            <div class="cities-images" id="stockholm"></div>
-            <p>Stockholm</p>
+          <div class="city-div" data-modal="modal-newdelhi">
+            <div class="cities-images" id="newdelhi"></div>
+            <p>NEWDELHI</p>
           </div>
-          <!-- Stockholm modal with map and text -->
-          <div id="modal-stockholm" class="modal">
+          <!-- Newdelhi modal with map and text -->
+          <div id="modal-newdelhi" class="modal">
             <div class="modal-content">
               <div class="container modal-container">
                 <span class="modal-close"><i class="fas fa-times"></i></span>
-                <h2>Stockholm</h2>
+                <h2>NEWDELHI</h2>
                 <div class="row modal-row">
-                  <div id="map-stockholm" class="col-md-6 modal-map"></div>
+                  <div id="map-newdelhi" class="col-md-6 modal-map"></div>
                   <div class="col-md-6 modal-text">
                     <p>
-                      In Stockholm you will be staying at the contemporary luxury Hotel Nobis in the
-                      city centre.
-                      On the night of the show, you will enjoy a 3-course meal in the cozy Restaurang
-                      Prinsen.
-                      They serve traditional Swedish dishes and have been in the same location since
-                      1897!
-                      The show will be in Sweden’s magnificent national opera house.<br>
-                      Get in touch with us to find out which shows are available while you’re there!
+                      Delhi is the capital city of India and is regarded as the heart of the 
+                      nation. The city is popular for its enriched culture and heritage. 
+                      The city hosts some famous historical monuments and is developing with
+                       the passing of time.
                     </p>
                     <a href="#contact-div" class="modal-btn">Contact us</a>
                   </div>
@@ -305,78 +273,110 @@
               </div>
             </div>
           </div>
-          <!-- /Stockholm modal with map and text -->
+          <!-- /Newdelhi modal with map and text -->
         </div>
-        <!-- /Stockholm -->
-        <!-- Dublin -->
-        <div class="col-md-6 col-lg-4">
-          <div class="city-div" data-modal="modal-dublin">
-            <div class="cities-images" id="dublin"></div>
-            <p>Dublin</p>
-          </div>
-          <!-- Dublin modal with map and text -->
-          <div id="modal-dublin" class="modal">
-            <div class="modal-content">
-              <div class="container modal-container">
-                <span class="modal-close"><i class="fas fa-times"></i></span>
-                <h2>Dublin</h2>
-                <div class="row modal-row">
-                  <div id="map-dublin" class="col-md-6 modal-map"></div>
-                  <div class="col-md-6 modal-text">
-                    <p>
-                      In Dublin you will be staying at the luxurious boutique hotel, Brooks Hotel.
-                      On the night of the show, you will enjoy a 3-course meal in the charming gastro
-                      pub The Oak which serves contemporary Irish food.
-                      The show will be in the atmospheric Olympia Theatre where you can watch a
-                      musical, stand-up comedy or a concert.<br>
-                      Get in touch with us to find out which shows are available while you’re there!
-                    </p>
-                    <a href="#contact-div" class="modal-btn">Contact us</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- /Dublin modal with map and text -->
-        </div>
-        <!-- /Dublin -->
-        <!-- Helsinki -->
-        <div class="col-md-6 col-lg-4">
-          <div class="city-div" data-modal="modal-helsinki">
-            <div class="cities-images" id="helsinki"></div>
-            <p>Helsinki</p>
-          </div>
-          <!-- Helsinki modal with map and text -->
-          <div id="modal-helsinki" class="modal">
-            <div class="modal-content">
-              <div class="container modal-container">
-                <span class="modal-close"><i class="fas fa-times"></i></span>
-                <h2>Helsinki</h2>
-                <div class="row modal-row">
-                  <div id="map-helsinki" class="col-md-6 modal-map"></div>
-                  <div class="col-md-6 modal-text">
-                    <p>
-                      In Helsinki you will be staying at the trendy 4-star Clarion Hotel which has a
-                      rooftop pool.
-                      On the night of the show, you will enjoy a 3-course meal in Restaurant Natura
-                      where you will be served modern and innovative food made with local and organic
-                      ingredients.
-                      The show will be in the old opera house of Finland, the atmospheric Alexander
-                      Theatre.<br>
-                      Get in touch with us to find out which shows are available while you’re there!
-                    </p>
-                    <a href="#contact-div" class="modal-btn">Contact us</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- /Helsinki modal with map and text -->
-        </div>
-        <!-- /Helsinki -->
+        <!-- /Newdelhi --> 
+                              
+                    
       </div>
     </div>
     <!-- /Destinations section with clickable images and modals -->
+
+<!-- packages-->
+
+<div class="container-fluid bg-2 text-center" id="packages-div">
+<h3>TOUR PACKAGES</h3>
+<br>
+
+<!--agra package-->
+
+<div class="row">
+  <div class="col-sm-4">
+       <p><strong>Agra</strong></p>
+      <img src="images/aagra.jpg" height="255" width="255" alt="San Francisco">
+  </div>
+  <br>
+  <br>
+        <div class="col-sm-8 bg-3">
+<br>
+<br>
+      <p>04 Nights - 05 Days</p>
+      <p>Price 200$</p>
+     <p>   Places: Taj Mahal, Agra Fort, Sikandara
+     Jama Masjid,Fatehpur Sikri</p>
+    </div>  
+      <br>
+      <br>
+  
+<div class="row">
+  <div class="col-sm-4">
+       <p><strong>Goa</strong></p>
+      <img src="images/goa.jpg" height="255" width="255" alt="San Francisco">
+  </div>
+        <div class="col-sm-8 bg-3">
+      <p>04 Nights - 05 Days</p>
+      <p>Price:300$</p>
+     <p>   Places: Calangute Beach,Chapora Fort,Dudhsagar Falls. 
+           Baga Beach,Anjuna Wednesday Market,Basilica of Bom Jesus.
+</p>
+    </div>  
+      
+      <div class="row">
+  <div class="col-sm-4">
+       <p><strong>Manali</strong></p>
+      <img src="images/manali.jpg" height="255" width="255" alt="San Francisco">
+  </div>
+        <div class="col-sm-8 bg-3">
+      <p>04 Nights - 05 Days</p>
+      <p>Price:250$</p>
+     <p>   Places: Hadimba Temple,Museum Of Himachal Culture And Folk Art,
+            Tibetan Monasteries,Manu Temple,Club House,Vashisht Hot Water Springs.
+            Maa Sharvari Temple,Nehru Kund.</p>
+    </div>  
+      </div>
+</div>
+  <!--hyderabad package-->
+
+  <div class="row">
+  <div class="col-sm-4">
+       <p><strong>Hyderabad</strong></p>
+      <img src="images/hyd.jpg" height="255" width="255" alt="San Francisco">
+  </div>
+        <div class="col-sm-8 bg-3">
+      <p>04 Nights - 05 Days</p>
+      <p>Price:200$</p>
+     <p>   Places: Charminar,Golconda Fort,Ramoji Film City,Hussain Sagar Lake. 
+           Birla Mandir,Jala Vihar,Chowmahalla Palace,Lumbini Park.</p>
+    </div>  
+    
+    <div class="row">
+  <div class="col-sm-4">
+       <p><strong>Mumbai</strong></p>
+      <img src="images/mumbai.jpg" height="255" width="255" alt="San Francisco">
+  </div>
+        <div class="col-sm-8 bg-3">
+      <p>04 Nights - 05 Days</p>
+      <p>Price:350$</p>
+     <p>   Places: Gateway of India,Elephanta Caves,Marine Drive.
+           Haji Ali Shrine,Sanjay Gandhi National Park,Markets of Mumbai.
+           Global Vipassana Pagoda,Siddhivinayak Temple.</p>
+    </div>  
+
+<div class="col-sm-4">
+       <p><strong>Newdelhi</strong></p>
+      <img src="images/newdelhi.jpg" height="255" width="255" alt="San Francisco">
+  </div>
+        <div class="col-sm-8 bg-3">
+
+
+      <p>04 Nights - 05 Days</p>
+      <p>Price:400$</p>
+      <p> Places: Humayun's Tomb,Hauz Khas Village,Qutub Minar,Red Fort
+         National Zoological Park,India Gate,Lotus Temple,Chandni Chowk.</p>
+    </div>  
+    </div>
+
+
     <!-- Contact section -->
     <div class="container-fluid contact" id="contact-div">
       <div class="contact-overlay">&nbsp;</div>
@@ -460,9 +460,9 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="modals.js"></script>
     <script src="map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZTxl5FC0FLslkbInuWwJRfcv_4f3KZrw&callback=initMap"
-      async defer></script>
-    <script src="assets/js/submitform.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf6SfM8Su95T0eTZwaar77C2j6yXqslUU
+                 &callback=initMap" async defer></script>
+    <script src="submit.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
     <!-- /Scripts -->
   </body>

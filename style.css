@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x:hidden;
 }
 
 body {
@@ -9,6 +10,7 @@ body {
     font-weight: 700;
     font-size: 1.2rem;
     color: #070C1E;
+    overflow-x:hidden;
 }
 
 /* Navbar */
@@ -43,7 +45,7 @@ body {
 
 /* Landing Page */
 .landing-page, .contact {
-    background-image: url("hyd.jpg");
+    background-image: url("images/hyd.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -96,9 +98,9 @@ h1 {
 .bg-2 {
     background-color: #474e5d; /* Dark Blue */
     color: #ffffff;
-text-align: center;
-padding-left: 50px;
-padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 80px;
+
   }
 
 /* Cities container */
@@ -150,28 +152,28 @@ padding-right: 40px;
 }
 
 #aagra {
-    background-image: url("aagra.jpg");
+    background-image: url("images/aagra.jpg");
 }
 
 #goa {
-    background-image: url("goa.jpg");
+    background-image: url("images/goa.jpg");
 }
 
 #jaipur {
-    background-image: url("jaipur.jpg");
+    background-image: url("images/jaipur.jpg");
 }
 
 #manali {
-    background-image: url("manali.jpg");
+    background-image: url("images/manali.jpg");
 }
 
-#hyd  {  background-image: url("hyd.jpg");
+#hyd  {  background-image: url("images/hyd.jpg");
 }
 #mumbai{
-    background-image: url("mumbai.jpg");
+    background-image: url("images/mumbai.jpg");
 }
 #newdelhi {
-        background-image: url("newdelhi.jpg");
+        background-image: url("images/newdelhi.jpg");
 
 }
 
@@ -253,6 +255,15 @@ padding-right: 40px;
             transform: scale(1.1);
 }
 /* Modals */
+
+/* packages border settings*/
+
+.bg-3{
+  border: 5px solid red;
+height: 280px;
+  background-color: blue;
+  margin-top: 60px;
+}
 
 
 /* Contact container */
@@ -385,6 +396,8 @@ padding-right: 40px;
     }
 
 }
+
+
 
 @media only screen and (min-width: 2560px) {
    

@@ -21,7 +21,7 @@ also included packages for the visiting places with the main places to visit.
 ## User Stories
 * as a user of the website, I can easily navigate between the sections of the website.
 
-*as a first time user of the website, I can easily know what iam looking for in the website.
+* as a first time user of the website, I can easily know what iam looking for in the website.
 
 * as a first time user of the website, I can quickly get a sense of what the business is about
   and what they offer.
@@ -77,9 +77,39 @@ The main thing on this  page though is to fill in the form and the user will be 
 * [JQuery](https://jquery.com/) This was used with bootstrap to allow you to place certain elements and functionality on your page.
 * [GitHub](https://github.com/) This allowed me to upload my local repository onto a remote server for access for anybody.
 * [VSCode](https://code.visualstudio.com/) I used this as my ide. The local repository along with all my code was stored here.
+* [Google Maps](https://cloud.google.com/maps-platform/maps/?utm_source=google&utm_medium=cpc&utm_campaign=FY18-Q2-global-demandgen-paidsearchonnetworkhouseads-cs-maps_contactsal_saf&utm_content=text-ad-none-none-DEV_c-CRE_267331561090-ADGP_Hybrid+%7C+AW+SEM+%7C+BKWS+~+EXA_+M:1_EMEAOt_EN_API_SQR-KWID_43700024190182920-kwd-295562633747-userloc_1012345&utm_term=KW_google%20map%20api-ST_google+map+api&gclid=Cj0KCQiApaXxBRDNARIsAGFdaB_Hb0dRUBRljLuse8LrG4XiN38_JgRvScdprtDZZGFhIDwat7-pw8UaAmXXEALw_wcB) JavaScript API was used to render the maps
+   
+ ## Testing
 
+  The HTML code was put through the [W3C Markup Validator](https://validator.w3.org/) to check for syntax errors. Similarly, the CSS code was put
+   through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+   All the following testing has been carried out on smaller screens running both iOS and Android 
+   and on larger screens running both macOS and Windows in multiple browsers. In addition, 
+   Chrome's developer tools were used extensively to test on all screen sizes including medium 
+   size which I did not otherwise have access to.
+
+   I also given close attention to the following scetions:
+
+   * Navigation bar
+   * images
+   * Modals
+   * Maps
+   * Images
    
-   
+  Tested to open the pages on all sizes available in Chrome, Firefox, but not Edge, as it
+   only had Slider available.
+
+* 60 x 640 Galaxy S5
+* 375 x 667 iPhone 6/7/8
+* 375 x 812 iPhone X
+* 411 x 731 Pixel 2
+* 411 x 823 Pixel 2 XL
+* 414 x 736 iPhone 6/7/8 Plus
+* 768 x 1024 iPad
+* 1024 x 1366 iPad Pro
+
+  
 
 
 

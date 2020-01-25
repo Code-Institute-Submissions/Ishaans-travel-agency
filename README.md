@@ -109,6 +109,26 @@ The main thing on this  page though is to fill in the form and the user will be 
 * 768 x 1024 iPad
 * 1024 x 1366 iPad Pro
 
+## Deployment
+
+Steps to deploy the website from GitHub.
+
+Go to GitHub.
+Click Repositories.
+Locate milestone-project-two.
+Open the repository milestone-project-two
+Click Settings.
+Scroll down to GitHub Pages.
+Select Master branch under Source.
+
+## Credits
+
+* the JS code for collapsing the navigation bar on small screens after clicking a link was 
+kindly provided to me by fellow student Sarani.
+
+* The code for modal box is taken inspiration from [w3schools](https://www.w3schools.com/).
+
+
   
 
 

@@ -40,9 +40,9 @@ also included packages for the visiting places with the main places to visit.
 I draw the images how the webiste looks like so any one who wants to see ,its easy for them 
 to understand the concept of the website.
 
-![Navigation bar](/images/wireframe one.jpg)
+![Navigation bar](images/wireframe.jpg)
 
-![website concept ](/images/wireframe two.jpg)
+![website concept](images/wireframe2.jpg)
 
 ## Features
 ### Home:

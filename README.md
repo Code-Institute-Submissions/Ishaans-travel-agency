@@ -37,6 +37,13 @@ also included packages for the visiting places with the main places to visit.
 
 ## Wireframes
 
+I draw the images how the webiste looks like so any one who wants to see ,its easy for them 
+to understand the concept of the website.
+
+![Navigation bar](/images/wireframe one.jpg)
+
+![website concept ](/images/wireframe two.jpg)
+
 ## Features
 ### Home:
 The main feature for the home page is the Tajmahal image of the city HYDERABAd with title it 

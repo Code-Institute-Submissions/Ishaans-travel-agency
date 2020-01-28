@@ -10,7 +10,8 @@ window.onload = function(){
         }, false;
 
     };
-
+    
+    
     // Closes modals when clicking outside of it
     window.onclick = function(event) {
         if (event.target.className == 'modal') {
